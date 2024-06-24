@@ -2,8 +2,8 @@ name: "Build kernel"
 on:
   push:
     branches: ksu 
-  schedule:
-    - cron: 0 4 * * * 
+  # schedule:
+  #   - cron: 0 4 * * * 
   workflow_dispatch:                                  
 jobs:
   build:
